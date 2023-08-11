@@ -2,11 +2,13 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="23489433-ad8f-4b8a-a597-8f2414b67e36" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/thogaKadeFX.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/AppInitializer.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/Controller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/CustomerFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/CustomerFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerFormController.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -41,10 +43,10 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;E:/My Studies/projects/JAVA/Thogakade_FX/thogaKadeFX/lib/mysql-connector-j-8.0.33.jar&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;Libraries&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/openjfx-20.0.2_windows-x64_bin-sdk&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;SDKs&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
     &quot;settings.editor.selected.configurable&quot;: &quot;preferences.JavaFX&quot;
   },
   &quot;keyToStringList&quot;: {
@@ -81,7 +83,8 @@
       <option name="presentableId" value="Default" />
       <updated>1691584252778</updated>
       <workItem from="1691584254943" duration="7658000" />
-      <workItem from="1691639627542" duration="2754000" />
+      <workItem from="1691639627542" duration="14422000" />
+      <workItem from="1691736400756" duration="71000" />
     </task>
     <servers />
   </component>
@@ -98,6 +101,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.lang.RuntimeException" package="java.lang" />
+          <option name="timeStamp" value="1" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />

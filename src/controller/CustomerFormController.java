@@ -15,7 +15,7 @@ public class CustomerFormController {
 
     public void addActionBtn(ActionEvent actionEvent) throws Exception {
        boolean isDone= Controller.addCustomer(new Customer(txtId.getText(),txtName.getText(),txtAddress.getText(),Double.parseDouble(txtSalary.getText())));
-       if(isDone){
+       if(true){
            txtId=null;
            txtName=null;
            txtAddress=null;
