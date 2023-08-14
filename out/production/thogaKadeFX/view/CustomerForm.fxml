@@ -6,10 +6,9 @@
 <?import javafx.scene.layout.AnchorPane?>
 <?import javafx.scene.text.Font?>
 
-
 <AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.CustomerFormController">
    <children>
-      <Button fx:id="btnAdd" layoutX="457.0" layoutY="317.0" mnemonicParsing="false" onAction="#addActionBtn" text="ADD" />
+      <Button fx:id="btnAdd" layoutX="469.0" layoutY="316.0" mnemonicParsing="false" onAction="#addActionBtn" text="ADD" />
       <TextField fx:id="txtId" layoutX="242.0" layoutY="99.0" prefHeight="25.0" prefWidth="268.0" />
       <Label layoutX="98.0" layoutY="103.0" prefHeight="17.0" prefWidth="86.0" text="Id" />
       <Label layoutX="214.0" layoutY="35.0" prefHeight="35.0" prefWidth="172.0" text="Add Customer" textAlignment="CENTER">
@@ -23,5 +22,6 @@
       <Label layoutX="98.0" layoutY="213.0" prefHeight="17.0" prefWidth="86.0" text="Address" />
       <TextField fx:id="txtSalary" layoutX="242.0" layoutY="267.0" prefHeight="25.0" prefWidth="268.0" />
       <Label layoutX="98.0" layoutY="271.0" prefHeight="17.0" prefWidth="86.0" text="Salary" />
+      <Button fx:id="btnBack" layoutX="45.0" layoutY="40.0" mnemonicParsing="false" onAction="#btnBackAction" prefHeight="25.0" prefWidth="62.0" text="Back " />
    </children>
 </AnchorPane>

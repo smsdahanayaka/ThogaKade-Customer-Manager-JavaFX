@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/20.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.MainViewController">
+   <children>
+      <Text layoutX="186.0" layoutY="60.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Thoga Kade" wrappingWidth="228.806640625">
+         <font>
+            <Font name="Algerian" size="36.0" />
+         </font>
+      </Text>
+      <Button fx:id="btnView" layoutX="59.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnViewAction" prefHeight="40.0" prefWidth="229.0" text="View Customers" AnchorPane.leftAnchor="53.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnAdd" layoutX="58.0" layoutY="139.0" mnemonicParsing="false" onAction="#btnAddAction" prefHeight="40.0" prefWidth="494.0" text="Add Customers" AnchorPane.leftAnchor="53.0" AnchorPane.rightAnchor="53.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnUpdate" layoutX="59.0" layoutY="268.0" mnemonicParsing="false" onAction="#btnUpdateAction" prefHeight="40.0" prefWidth="229.0" text="Update Customers" AnchorPane.leftAnchor="53.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnDelete" layoutX="370.0" layoutY="268.0" mnemonicParsing="false" onAction="#btnDeleteAction" prefHeight="40.0" prefWidth="229.0" text="Delete Customers" AnchorPane.rightAnchor="53.0">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnSearch" layoutX="318.0" layoutY="214.0" mnemonicParsing="false" onAction="#btnSearchAction" prefHeight="40.0" prefWidth="229.0" text="Search Customers">
+         <font>
+            <Font name="System Bold" size="18.0" />
+         </font>
+      </Button>
+      <Button fx:id="btnExit" layoutX="495.0" layoutY="344.0" mnemonicParsing="false" onAction="#btnExitAction" text="EXIT" />
+   </children>
+</AnchorPane>

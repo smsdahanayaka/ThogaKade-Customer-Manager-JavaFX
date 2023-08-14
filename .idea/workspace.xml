@@ -5,10 +5,17 @@
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/AppInitializer.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/AppInitializer.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/Controller.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/Controller.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/CustomerFormController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/CustomerFormController.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/UpdateCustomerController.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/thogaKadeFX/controller/UpdateCustomerController.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/AppInitializer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/AppInitializer.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/Controller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/Controller.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/controller/CustomerFormController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/CustomerFormController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/DeleteCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/DeleteCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/SearchCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/SearchCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/controller/UpdateCustomerController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/controller/UpdateCustomerController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/CustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/CustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/DeleteCustomer.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/DeleteCustomer.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/SearchCustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/SearchCustomerForm.fxml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/view/UpdateCustomerForm.fxml" beforeDir="false" afterPath="$PROJECT_DIR$/src/view/UpdateCustomerForm.fxml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -84,7 +91,9 @@
       <updated>1691584252778</updated>
       <workItem from="1691584254943" duration="7658000" />
       <workItem from="1691639627542" duration="14422000" />
-      <workItem from="1691736400756" duration="71000" />
+      <workItem from="1691736400756" duration="1327000" />
+      <workItem from="1691830633155" duration="7003000" />
+      <workItem from="1691988465745" duration="7682000" />
     </task>
     <servers />
   </component>

@@ -12,6 +12,7 @@ public class DeleteCustomerController {
     public TextField txtAddress;
     public TextField txtSalary;
     public Button btnDelete;
+    public Button btnBack;
 
     public void searchCustomerAction(ActionEvent actionEvent) throws Exception {
         String id=search();
@@ -41,5 +42,9 @@ public class DeleteCustomerController {
         txtSalary.setText(customer.getSalary()+"");
 
         return customer.getId();
+    }
+
+    public void btnBackAction(ActionEvent actionEvent) {
+        Controller.backMethod(actionEvent);
     }
 }

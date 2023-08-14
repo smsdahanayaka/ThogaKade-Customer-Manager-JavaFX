@@ -22,5 +22,6 @@
       <Label layoutX="146.0" layoutY="248.0" prefHeight="17.0" prefWidth="50.0" text="Salary" />
       <TextField fx:id="txtSalary" layoutX="262.0" layoutY="244.0" prefHeight="25.0" prefWidth="203.0" />
       <Button fx:id="btnDelete" layoutX="413.0" layoutY="309.0" mnemonicParsing="false" onAction="#deletAction" text="DELETE" />
+      <Button fx:id="btnBack" layoutX="40.0" layoutY="43.0" mnemonicParsing="false" onAction="#btnBackAction" text="Back" />
    </children>
 </AnchorPane>

@@ -11,6 +11,7 @@ public class SearchCustomerController {
     public TextField txtAddress;
     public TextField txtSalary;
     public Button btnSearch;
+    public Button btnBack;
 
     public void idSearch(ActionEvent actionEvent) throws Exception {
         search();
@@ -25,5 +26,9 @@ public class SearchCustomerController {
        txtName.setText(customer.getName());
        txtAddress.setText(customer.getAddress());
        txtSalary.setText(customer.getSalary()+"");
+    }
+
+    public void btnBackAction(ActionEvent actionEvent) {
+        Controller.backMethod(actionEvent);
     }
 }

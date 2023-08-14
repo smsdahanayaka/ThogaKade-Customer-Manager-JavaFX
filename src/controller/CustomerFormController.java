@@ -1,7 +1,6 @@
 package controller;
 
 import javafx.event.ActionEvent;
-import javafx.scene.control.Alert;
 import javafx.scene.control.Button;
 import javafx.scene.control.TextField;
 import model.Customer;
@@ -12,6 +11,7 @@ public class CustomerFormController {
     public TextField txtName;
     public TextField txtAddress;
     public TextField txtSalary;
+    public Button btnBack;
 
     public void addActionBtn(ActionEvent actionEvent) throws Exception {
        boolean isDone= Controller.addCustomer(new Customer(txtId.getText(),txtName.getText(),txtAddress.getText(),Double.parseDouble(txtSalary.getText())));
@@ -23,5 +23,9 @@ public class CustomerFormController {
 
        }
 
+    }
+
+    public void btnBackAction(ActionEvent actionEvent) {
+        Controller.backMethod(actionEvent);
     }
 }

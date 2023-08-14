@@ -12,17 +12,22 @@ public class UpdateCustomerController {
     public TextField txtAddress;
     public TextField txtSalary;
     public Button btnUpdate;
+    public Button btnBack;
 
     public void searchAction(ActionEvent actionEvent) throws Exception {
         search();
     }
 
     public void updateActionBtn(ActionEvent actionEvent) throws Exception {
-        String id= search();
+
         boolean bol;
-        if(id!=""){
-           bol= Controller.updateCustomer(new Customer(id,txtName.getText(),txtAddress.getText(),Double.parseDouble(txtSalary.getText())));
-           if(bol){
+        if(txtId.getId()!=""){
+            double salary = Double.parseDouble(txtSalary.getText());
+            Customer updatedCustomer = new Customer(txtId.getId(), txtName.getText(), txtAddress.getText(), salary);
+            boolean success = Controller.updateCustomer(updatedCustomer);
+
+
+            if(success){
                Alert alert=new Alert(Alert.AlertType.INFORMATION);
                alert.setHeaderText("Done");
                alert.show();
@@ -34,12 +39,16 @@ public class UpdateCustomerController {
         }
     }
 
-    public String search() throws Exception {
+    public void search() throws Exception {
         Customer customer= Controller.searchCustomer(txtId.getText());
         txtId.setText(customer.getId());
         txtName.setText(customer.getName());
         txtAddress.setText(customer.getAddress());
         txtSalary.setText(customer.getSalary()+"");
-        return customer.getId();
+
+    }
+
+    public void btnBackAction(ActionEvent actionEvent) {
+        Controller.backMethod(actionEvent);
     }
 }
